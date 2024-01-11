@@ -56,12 +56,12 @@
                         <div class="row">
                             <label for="V_0" class="col-sm-1 col-form-label">Tanggal :</label>
                             <div class="col-sm-4">
-                                <input type="date" class="form-control" id="V_0">
+                                <input type="date" class="form-control" name="v_01" id="v_01">
                             </div>
                             <div class="col-sm-1"></div>
                             <label for="V_0" class="col-sm-1 col-form-label">Jam :</label>
                             <div class="col-sm-4">
-                                <input type="time" class="form-control" id="V_0">
+                                <input type="time" class="form-control" name="v_02" id="v_02">
                             </div>
                         </div>
             </td>
@@ -72,7 +72,7 @@
             <td>
               <div class="mb-4">
               <label><b>ANAMNESIS : Autoanamnesis / Alloanamnesis</b> dengan :</label>
-              <input type="text" name=""> Hubungan dengan pasien : <input type="text" name="">
+              <input type="text" name="v_03" id="v_03"> Hubungan dengan pasien : <input type="text" name="v_04" id="v_04">
             </div>
 
               <div class="mb-2">
@@ -82,7 +82,7 @@
                       <label for="">• Keluhan Utama  </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 700px">
+                      <input type="text" class="form-control" id="v_05" name="v_05" style="width: 700px">
                     </div>
                   </div>
                 </div>
@@ -96,7 +96,7 @@
                       <label for="">• Riwayat Penyakit Sekarang  </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 700px">
+                      <input type="text" class="form-control" id="v_06" name="v_06" style="width: 700px">
                     </div>
                   </div>
                 </div>
@@ -110,7 +110,7 @@
                       <label for="">• Alloanamnesis </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 700px">
+                      <input type="text" class="form-control" id="v_07" name="v_07" style="width: 700px">
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@
                       <label for="">• Riwayat Penyakit Dahulu    </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 700px">
+                      <input type="text" class="form-control" id="v_08" name="v_08" style="width: 700px">
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@
                       <label for="">• Obat- obatan yang Dikonsumsi</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 700px">
+                      <input type="text" class="form-control" id="v_09" name="v_09" style="width: 700px">
                     </div>
                   </div>
                 </div>
@@ -151,35 +151,35 @@
                                   <div class="col-6">
                                 <div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Baik</label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_baik" value="option1">
+                                        <label class="form-check-label" for="t_01_baik">Baik</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Sedang</label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_sedang" value="option2">
+                                        <label class="form-check-label" for="t_01_sedang">Sedang</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Lemah</label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_02_lemah" value="option2">
+                                        <label class="form-check-label" for="t_02_lemah">Lemah</label>
                                     </div>
                                  </div>
 
               <label><b>GCS</b></label>
-              <b>E :</b><input type="text" name="" style="width: 100px">
-              <b>M :</b><input type="text" name="" style="width: 100px">
-              <b>V :</b><input type="text" name="" style="width: 100px">
+              <b>E :</b><input type="text" name="v_10" id="v_10" style="width: 100px">
+              <b>M :</b><input type="text" name="v_11" id="v_11" style="width: 100px">
+              <b>V :</b><input type="text" name="v_12" id="v_12" style="width: 100px">
             </div>
 
 
               <div class="col-6">
               <label><b>Tanda vital :</b></label>
               <div class="mb-3">
-                TD :<input type="text" name="" style="width: 50px"> / <input type="text" name="" style="width: 50px">mmHg , N :
-              <input type="text" name=""  style="width: 100px">x/Menit
+                TD :<input type="text" name="tension_upper" id="tension_upper" style="width: 50px"> / <input type="text" name="tension_bellow" id="tension_bellow" style="width: 50px">mmHg , N :
+              <input type="text" name="nadi" id="nadi"  style="width: 100px">x/Menit
                 </div>
                 <div>
-                  R :<input type="text" name=""  style="width: 100px">x/Menit , S :
-                  <input type="text" name=""  style="width: 100px">°C
+                  R :<input type="text" name="nafas" id="nafas"  style="width: 100px">x/Menit , S :
+                  <input type="text" name="saturasi" id="saturasi"  style="width: 100px">°C
               </div>
             </div>
               </div>
@@ -193,7 +193,7 @@
                       <label for="">1.  Kepala</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 800px">
+                      <input type="text" class="form-control" id="v_13" name="v_13" style="width: 800px">
                     </div>
                   </div>
                 </div>
@@ -206,7 +206,7 @@
                       <label for="">2.  Leher </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 800px">
+                      <input type="text" class="form-control" id="v_14" name="v_14" style="width: 800px">
                     </div>
                   </div>
                 </div>
@@ -219,7 +219,7 @@
                       <label for="">3.  Thorax </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 800px">
+                      <input type="text" class="form-control" id="v_15" name="v_15" style="width: 800px">
                     </div>
                   </div>
                 </div>
@@ -232,7 +232,7 @@
                       <label for="">4.  Abdomen</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 800px">
+                      <input type="text" class="form-control" id="v_16" name="v_16" style="width: 800px">
                     </div>
                   </div>
                 </div>
@@ -245,7 +245,7 @@
                       <label for="">5.  Genitalia </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 800px">
+                      <input type="text" class="form-control" id="v_17" name="v_17" style="width: 800px">
                     </div>
                   </div>
                 </div>
@@ -261,7 +261,7 @@
                       <label for="">a.  Extremitas Atas</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 800px">
+                      <input type="text" class="form-control" id="v_18" name="v_18" style="width: 800px">
                     </div>
                   </div>
                 </div>
@@ -273,7 +273,7 @@
                       <label for="">a.  Extremitas Bawah</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 800px">
+                      <input type="text" class="form-control" id="v_19" name="v_19" style="width: 800px">
                     </div>
                   </div>
                 </div>
@@ -292,7 +292,7 @@
                       <label for="">1.  Laboratorium</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 750px">
+                      <input type="text" class="form-control" id="v_20" name="v_20" style="width: 750px">
                     </div>
                   </div>
                 </div>
@@ -306,7 +306,7 @@
                       <label for="">2.  Radiologi</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 750px">
+                      <input type="text" class="form-control" id="v_21" name="v_21" style="width: 750px">
                     </div>
                   </div>
                 </div>
@@ -320,7 +320,7 @@
                       <label for="">3.  ECG</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 750px">
+                      <input type="text" class="form-control" id="v_22" name="v_22" style="width: 750px">
                     </div>
                   </div>
                 </div>
@@ -334,7 +334,7 @@
                       <label for="">4.  Lain – lain </label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 750px">
+                      <input type="text" class="form-control" id="v_23" name="v_23" style="width: 750px">
                     </div>
                   </div>
                 </div>
@@ -345,14 +345,14 @@
               <label><b>DIAGNOSIS KERJA : </b></label>
               <div class="mb-3">
               <div>
-                        <textarea class="form-control" id="v_16" name="v_16" rows="4" cols="7"></textarea>
+                        <textarea class="form-control" id="v_24" name="v_24" rows="4" cols="7"></textarea>
                     </div></div>
 
 
               <label><b>DIAGNOSIS BANDING :</b></label>
               <div class="mb-3">
               <div>
-                        <textarea class="form-control" id="v_16" name="v_16" rows="4" cols="7"></textarea>
+                        <textarea class="form-control" id="v_25" name="v_25" rows="4" cols="7"></textarea>
                     </div></div>
 
 
@@ -360,23 +360,23 @@
               <div><label>a. Medis : </label></div>
               <div class="mb-3">
               <div>
-                        <textarea class="form-control" id="v_16" name="v_16" rows="4" cols="7"></textarea>
+                        <textarea class="form-control" id="v_26" name="v_26" rows="4" cols="7"></textarea>
                     </div></div>
               <label>b. Keperawatan : </label>
               <div class="mb-3">
               <div>
-                        <textarea class="form-control" id="v_16" name="v_16" rows="4" cols="7"></textarea>
+                        <textarea class="form-control" id="v_27" name="v_27" rows="4" cols="7"></textarea>
                     </div></div>
 
                <label><b>SASARAN :</b></label>
               <div class="mb-3">
               <div>
-                        <textarea class="form-control" id="v_16" name="v_16" rows="4" cols="7"></textarea>
+                        <textarea class="form-control" id="v_28" name="v_28" rows="4" cols="7"></textarea>
                     </div></div>
               <label><b>RENCANA ASUHAN/ TERAPI/INSTRUKSI (standing order):</b></label>
               <div class="mb-3">
               <div>
-                        <textarea class="form-control" id="v_16" name="v_16" rows="10" cols="7"></textarea>
+                        <textarea class="form-control" id="v_29" name="v_29" rows="10" cols="7"></textarea>
                     </div></div>
 
 
@@ -388,7 +388,7 @@
                   <div class="mb-1" >
                     <canvas id="canvas" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD" id="TTD">
-                    <br><input type="text" name="">
+                    <br><input type="text" name="v_30" id="v_30">
                       <br><label for="">Ttd & Nama Terang</label>
                 </div>
               </div>
@@ -400,7 +400,7 @@
                   <div class="mb-1" >
                     <canvas id="canvas1" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD_1" id="TTD_1">
-                    <br><input type="text" name="">
+                    <br><input type="text" name="v_31" id="v_31">
                       <br><label for="">Ttd & Nama Terang</label>
                 </div>
               </div>

@@ -55,14 +55,14 @@
             <td>Kemampuan membaca</td>
             <td colspan="3">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Baik  </label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_baik" value="0">
+                                        <label class="form-check-label" for="t_01_baik">Baik  </label>
                                     </div>
             </td>
             <td colspan="2">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Kurang  </label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_kurang" value="0">
+                                        <label class="form-check-label" for="t_01_kurang">Kurang  </label>
                                     </div>
             </td>
           </tr>
@@ -72,33 +72,33 @@
             <td>Tingkat pendidikan</td>
             <td>
                <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">SD  </label>
+                                        <input class="form-check-input" type="radio" name="t_02" id="t_02_sd" value="0">
+                                        <label class="form-check-label" for="t_02_sd">SD  </label>
                                     </div>
             </td>
             <td>
                <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">SMP  </label>
+                                        <input class="form-check-input" type="radio" name="t_02" id="t_02_smp" value="0">
+                                        <label class="form-check-label" for="t_02_smp">SMP  </label>
                                     </div>
             </td>
             <td>
                <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Diploma  </label>
+                                        <input class="form-check-input" type="radio" name="t_02" id="t_02_diploma" value="0">
+                                        <label class="form-check-label" for="t_02_diploma">Diploma  </label>
                                     </div>
             </td>
             <td>
                <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Sarjana  </label>
+                                        <input class="form-check-input" type="radio" name="t_02" id="t_02_sarjana" value="0">
+                                        <label class="form-check-label" for="t_02_sarjana">Sarjana  </label>
                                     </div>
             </td>
             <td>
                <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Lainnya  </label>
-                                        <input type="text" name="" style="width: 100px">
+                                        <input class="form-check-input" type="radio" name="t_02" id="t_02_lainnya" value="0">
+                                        <label class="form-check-label" for="t_02_lainnya">Lainnya  </label>
+                                        <input type="text" name="v_01" id="v_01" style="width: 100px">
                                     </div>
             </td>
           </tr>
@@ -109,22 +109,22 @@
             <td>Kemampuan berbahasa</td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Indonesia</label>
+                                        <input class="form-check-input" type="radio" name="t_03" id="t_03_indo" value="0">
+                                        <label class="form-check-label" for="t_03_indo">Indonesia</label>
                                     </div>
             </td>
             <td colspan="2">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Asing  </label>
-                                        <input type="text" name="" style="width: 100px">
+                                        <input class="form-check-input" type="radio" name="t_03" id="t_03_asing" value="0">
+                                        <label class="form-check-label" for="t_03_asing">Asing  </label>
+                                        <input type="text" name="v_02" id="v_02" style="width: 100px">
                                     </div>
             </td>
             <td colspan="2">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Daerah  </label>
-                                        <input type="text" name="" style="width: 100px">
+                                        <input class="form-check-input" type="radio" name="t_03" id="t_03_daerah" value="0">
+                                        <label class="form-check-label" for="t_03_daerah">Daerah  </label>
+                                        <input type="text" name="v_03" id="v_03" style="width: 100px">
                                     </div>
             </td>
           </tr>
@@ -135,14 +135,14 @@
             <td>Kebutuhan penerjemah</td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Ya</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_ya" value="0">
+                                        <label class="form-check-label" for="t_04_ya">Ya</label>
                                     </div>
             </td>
             <td colspan="4">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Tidak</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_tidak" value="0">
+                                        <label class="form-check-label" for="t_04_tidak">Tidak</label>
                                     </div>
             </td>
           </tr>
@@ -153,26 +153,26 @@
             <td>Hambatan emosional</td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Tidak Ada</label>
+                                        <input class="form-check-input" type="radio" name="t_05" id="t_05_tidak" value="0">
+                                        <label class="form-check-label" for="t_05_tidak">Tidak Ada</label>
                                     </div>
             </td>
             <td colspan="2">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Labil</label>
+                                        <input class="form-check-input" type="radio" name="t_05" id="t_05_labil" value="0">
+                                        <label class="form-check-label" for="t_05_labil">Labil</label>
                                     </div>
             </td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Depresi</label>
+                                        <input class="form-check-input" type="radio" name="t_05" id="t_05_depresi" value="0">
+                                        <label class="form-check-label" for="t_05_depresi">Depresi</label>
                                     </div>
             </td>
             <td >
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Agresif</label>
+                                        <input class="form-check-input" type="radio" name="t_05" id="t_05_agresif" value="0">
+                                        <label class="form-check-label" for="t_05_agresif">Agresif</label>
                                     </div>
             </td>
           </tr>
@@ -181,16 +181,16 @@
           <tr>
             <td>Motivasi</td>
             <td><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Lemah</label>
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_lemah" value="0">
+                                        <label class="form-check-label" for="t_06_lemah">Lemah</label>
                                     </div></td>
             <td><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Cukup</label>
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_cukup" value="0">
+                                        <label class="form-check-label" for="t_06_cukup">Cukup</label>
                                     </div></td>
             <td colspan="3"><div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Kuat</label>
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_kuat" value="0">
+                                        <label class="form-check-label" for="t_06_kuat">Kuat</label>
                                     </div></td>
           </tr>
 
@@ -200,34 +200,34 @@
             <td>Keterbatasan Fisik dan kognitif</td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Tidak Ada</label>
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_tidak" value="0">
+                                        <label class="form-check-label" for="t_07_tidak">Tidak Ada</label>
                                     </div>
             </td>
             <td colspan="4">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Ada</label>
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_ada" value="0">
+                                        <label class="form-check-label" for="t_07_ada">Ada</label>
                                     </div>
               <div class="mb-1 form-check">
-                          <input type="checkbox" class="form-check-input"  name="t_05" id="t_05_down syndrom">
-                          <label class="form-check-label" for="t_05_down syndrom" >Fisik lemah</label>
+                          <input type="checkbox" class="form-check-input"  name="t_011" id="t_011_fisik">
+                          <label class="form-check-label" for="t_011_fisik" >Fisik lemah</label>
                       </div>
               <div class="mb-1 form-check">
-                          <input type="checkbox" class="form-check-input"  name="t_05" id="t_05_down syndrom">
-                          <label class="form-check-label" for="t_05_down syndrom" >Penglihatan terganggu</label>
+                          <input type="checkbox" class="form-check-input"  name="t_012" id="t_012_penglihatan">
+                          <label class="form-check-label" for="t_012_penglihatan" >Penglihatan terganggu</label>
                       </div>
               <div class="mb-1 form-check">
-                          <input type="checkbox" class="form-check-input"  name="t_05" id="t_05_down syndrom">
-                          <label class="form-check-label" for="t_05_down syndrom" >Gangguan bicara</label>
+                          <input type="checkbox" class="form-check-input"  name="t_013" id="t_013_gangguan">
+                          <label class="form-check-label" for="t_013_gangguan" >Gangguan bicara</label>
                       </div>
               <div class="mb-1 form-check">
-                          <input type="checkbox" class="form-check-input"  name="t_05" id="t_05_down syndrom">
-                          <label class="form-check-label" for="t_05_down syndrom" >Gangguan pendengaran</label>
+                          <input type="checkbox" class="form-check-input"  name="t_014" id="t_014_pendengaran">
+                          <label class="form-check-label" for="t_014_pendengaran" >Gangguan pendengaran</label>
                       </div>
               <div class="mb-1 form-check">
-                          <input type="checkbox" class="form-check-input"  name="t_05" id="t_05_down syndrom">
-                          <label class="form-check-label" for="t_05_down syndrom" >Kognitif terbatas</label>
+                          <input type="checkbox" class="form-check-input"  name="t_015" id="t_015_kognitif">
+                          <label class="form-check-label" for="t_015_kognitif" >Kognitif terbatas</label>
                       </div>
             </td>
           </tr>
@@ -237,14 +237,14 @@
             <td>Kesediaan menerima Edukasi</td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Bersedia</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_bersedia" value="0">
+                                        <label class="form-check-label" for="t_08_bersedia">Bersedia</label>
                                     </div>
             </td>
             <td colspan="4">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Tidak Bersedia</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_tidak" value="0">
+                                        <label class="form-check-label" for="t_08_tidak">Tidak Bersedia</label>
                                     </div>
             </td>
           </tr>
@@ -255,27 +255,27 @@
             <td>Cara Edukasi</td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Diskusi</label>
+                                        <input class="form-check-input" type="radio" name="t_09" id="t_09_diskusi" value="0">
+                                        <label class="form-check-label" for="t_09_diskusi">Diskusi</label>
                                     </div>
             </td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Demonstrasi/peragaan</label>
+                                        <input class="form-check-input" type="radio" name="t_09" id="t_09_demon" value="0">
+                                        <label class="form-check-label" for="t_09_demon">Demonstrasi/peragaan</label>
                                     </div>
             </td>
             <td>
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Ceramah</label>
+                                        <input class="form-check-input" type="radio" name="t_09" id="t_09_ceramah" value="0">
+                                        <label class="form-check-label" for="t_09_ceramah">Ceramah</label>
                                     </div>
             </td>
             <td colspan="2">
               <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="t_022" id="t_022_compos" value="0">
-                                        <label class="form-check-label" for="t_022_compos">Lainnya </label>
-                                        <input type="text" name="" style="width: 150px">
+                                        <input class="form-check-input" type="radio" name="t_09" id="t_09_lainnya" value="0">
+                                        <label class="form-check-label" for="t_09_lainnya">Lainnya </label>
+                                        <input type="text" name="v_04" id="v_04" style="width: 150px">
                                     </div>
             </td>
           </tr>
@@ -286,40 +286,40 @@
             <td colspan="5">
               <label>Penggunaan obat secara efektif dan aman</label>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">Potensi efek samping obat</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_potensi">
+                <label class="form-check-label" for="t_010_potensi">Potensi efek samping obat</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                <label class="form-check-label" for="flexRadioDefault2">Potensi interaksi obat antar obat, suplemen dan makanan</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_interaksi" >
+                <label class="form-check-label" for="t_010_interaksi">Potensi interaksi obat antar obat, suplemen dan makanan</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">Asesmen nyeri dan managemen nyeri</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_asesmen">
+                <label class="form-check-label" for="t_010_asesmen">Asesmen nyeri dan managemen nyeri</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                <label class="form-check-label" for="flexRadioDefault2">Tehnik rehabilitasi</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_tehnik" >
+                <label class="form-check-label" for="t_010_tehnik">Tehnik rehabilitasi</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">Cuci tangan yang benar</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_cuci">
+                <label class="form-check-label" for="t_010_cuci">Cuci tangan yang benar</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                <label class="form-check-label" for="flexRadioDefault2">Pencegahan risiko jatuh</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_pencegahan" >
+                <label class="form-check-label" for="t_010_pencegahan">Pencegahan risiko jatuh</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">Etika batuk</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_etika">
+                <label class="form-check-label" for="t_010_etika">Etika batuk</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                <label class="form-check-label" for="flexRadioDefault2">Edukasi lindungi anak</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_edukasi" >
+                <label class="form-check-label" for="t_010_edukasi">Edukasi lindungi anak</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">Tanda bahaya pada nifas</label>
+                <input class="form-check-input" type="radio" name="t_010" id="t_010_nifas">
+                <label class="form-check-label" for="t_010_nifas">Tanda bahaya pada nifas</label>
               </div>
 
               <div class="col-md-10">
@@ -328,7 +328,7 @@
                         <label for="">Lain-lain</label>
                       </div>
                       <div class="col-md-6">
-                        <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 500px">
+                        <input type="text" class="form-control" id="v_05" name="v_05" style="width: 500px">
                       </div>
                     </div>
                   </div>

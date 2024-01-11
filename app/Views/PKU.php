@@ -74,7 +74,7 @@
                     <div class="card-body">
                         <h5 class="card-title">RINGKASAN MASUK DAN KELUAR</h5>
                         <br>
-                        <a href="PKU/form1" class="btn btn-outline-dark">Isi Formulir</a>
+                        <a href="form1" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN AWAL KEPERAWATAN PASIEN KRITIS</h5>
                         <br>
-                        <a href="PKU/form2" class="btn btn-outline-dark">Isi Formulir</a>
+                        <a href="form2" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN KEBUTUHAN EDUKASI</h5>
                         <br>
-                        <a href="PKU/form3" class="btn btn-outline-dark">Isi Formulir</a>
+                        <a href="form3" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN ULANG NYERI</h5>
                         <br>
-                        <a href="PKU/form4" class="btn btn-outline-dark">Isi Formulir</a>
+                        <a href="form4" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN AWAL MEDIS PASIEN BEDAH ORTHOPEDI RAWAT INAP</h5>
                         <br>
-                        <a href="PKU/form5" class="btn btn-outline-dark">Isi Formulir</a>
+                        <a href="form5" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN AWAL KEPERAWATAN PASIEN NEONATUS RAWAT INAP</h5>
                         <br>
-                        <a href="PKU/form6" class="btn btn-outline-dark">Isi Formulir</a>
+                        <a href="form6" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN KHUSUS PENYAKIT MENULAR _ IMMUNOSUPRESED</h5>
                         <br>
-                        <a href="PKU/form7" class="btn btn-outline-dark">Isi Formulir</a>
+                        <a href="form7" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>

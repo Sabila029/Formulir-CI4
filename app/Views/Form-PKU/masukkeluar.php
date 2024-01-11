@@ -8,23 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-
-     <style>
-      .box1{
-        width: 450px;
-        height: 80px;
-        background: transparent;
-      }
-      .box2{
-        width: 300px;
-        height: 80px;
-        background: transparent;
-      }
-
-      .kbw-signature { width: 250px; height: 200px; }
-    </style>
-
+    <title>RINGKASAN MASUK DAN KELUAR</title>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -79,7 +63,7 @@
                       <label for="">Dirawat yang ke :</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="number" class="form-control" id="" name="" style="width: 100px" autofocus>
+                      <input type="number" class="form-control" id="v_01" name="v_01" style="width: 100px" autofocus>
                     </div>
                   </div>
                 </div>
@@ -100,7 +84,7 @@
                       <label for="">Ruang</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 200px">
+                      <input type="text" class="form-control" id="v_02" name="v_02" style="width: 200px">
                     </div>
                   </div>
                 </div>
@@ -108,41 +92,41 @@
                 <td colspan="3" style="text-align: center;">Jenis Kelamin</td>
                 <td colspan="2" rowspan="2" style="text-align: center;">
                   <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">A</label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_a" value="option1">
+                                        <label class="form-check-label" for="t_01_a">A</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">B</label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_b" value="option2">
+                                        <label class="form-check-label" for="t_01_b">B</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">AB</label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_ab" value="option2">
+                                        <label class="form-check-label" for="t_01_ab">AB</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">O</label>
+                                        <input class="form-check-input" type="radio" name="t_01" id="t_01_o" value="option2">
+                                        <label class="form-check-label" for="t_01_o">O</label>
                                     </div>
                 </td>
                 <td rowspan="2">
                   <div class="input-group mb-3" style="width: 80px">
                     <span class="input-group-text" id="basic-addon1">H</span>
-                    <input type="text" class="form-control" >
+                    <input type="text" class="form-control" id="ageday" name="ageday">
                   </div></td>
                 <td rowspan="2">
                   <div class="input-group mb-3" style="width: 80px">
                     <span class="input-group-text" id="basic-addon1">B</span>
-                    <input type="text" class="form-control" >
+                    <input type="text" class="form-control" id="agemonth" name="agemonth">
                   </div></td>
                 <td rowspan="2">
                   <div class="input-group mb-3" style="width: 100px">
                     <span class="input-group-text" id="basic-addon1">T</span>
-                    <input type="text" class="form-control" >
+                    <input type="text" class="form-control" id="ageyear" name="ageyear">
                   </div>
                 </td>
                 <td rowspan="2">
                   <div class="col-md-6">
-                      <input type="number" class="form-control" id="" name="" style="width: 100px;" >
+                      <input type="number" class="form-control" id="ageyear" name="ageyear" style="width: 100px;" >
                     </div>
                 </td>
               </tr>
@@ -154,12 +138,12 @@
                 <td colspan="3" style="text-align: center;">
                   <div class="col-md-13">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                            <label class="form-check-label" for="t_01">LK</label>
+                                            <input class="form-check-input" type="radio" name="t_02" id="t_02_lk" value="option1">
+                                            <label class="form-check-label" for="t_02_lk">LK</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                            <label class="form-check-label" for="t_02">PR</label>
+                                            <input class="form-check-input" type="radio" name="t_02" id="t_02_pr" value="option2">
+                                            <label class="form-check-label" for="t_02_pr">PR</label>
                                         </div>
                                       </div>
                 </td>
@@ -176,7 +160,7 @@
                       <label for="">Alamat</label>
                     </div>
                     <div class="col-md-9">
-                                  <textarea class="form-control" id="v_12" name="v_12" rows="4" cols="8" autocomplete="off"></textarea>
+                                  <textarea class="form-control" id="theaddress " name="theaddress " rows="4" cols="8" autocomplete="off"></textarea>
                                 </div>
                   </div>
                 </div>
@@ -193,12 +177,12 @@
             <td colspan="3">
               <div class="col-md-10">
                           <div class="form-check-inline">
-                            <input type="radio" class="form-check-input" name="t_05" value="t_05">
-                            <label>Indonesia</label>
+                            <input type="radio" class="form-check-input" name="t_03" id="t_03_indo" value="0">
+                            <label for="t_03_indo">Indonesia</label>
                           </div>
                           <div class="form-check-inline">
-                            <input type="radio" class="form-check-input" name="t_05" value="t_05">
-                            <label>Asing</label>
+                            <input type="radio" class="form-check-input" name="t_03" id="t_03_asing" value="1">
+                            <label for="t_03_asing">Asing</label>
                           </div>
                         </div>
             </td>
@@ -207,32 +191,32 @@
                                   <div class="col-6">
                                     <div class="col-md-4">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Islam</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_islam" value="option1">
+                                        <label class="form-check-label" for="t_04_islam">Islam</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Protestan</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_protestan" value="option2">
+                                        <label class="form-check-label" for="t_04_protestan">Protestan</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Katolik</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_katolik" value="option2">
+                                        <label class="form-check-label" for="t_04_katolik">Katolik</label>
                                     </div>
                                   </div>
                                   </div>
                                   <div class="col-6">
                                     <div class="col-md-8">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Hindu</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_hindu" value="option1">
+                                        <label class="form-check-label" for="t_04_hindu">Hindu</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Budha</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_budha" value="option2">
+                                        <label class="form-check-label" for="t_04_budha">Budha</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Lain-lain</label>
+                                        <input class="form-check-input" type="radio" name="t_04" id="t_04_lain" value="option2">
+                                        <label class="form-check-label" for="t_04_lain">Lain-lain</label>
                                     </div>
                                   </div>
                                   </div>
@@ -241,20 +225,20 @@
             <td>
                          <div class="col-md-8">
                           <div class="form-check-inline">
-                            <input type="radio" class="form-check-input" name="t_05" value="t_05">
-                            <label>Kawin</label>
+                            <input type="radio" class="form-check-input" name="t_05" id="v_05_kawin" value="0">
+                            <label for="v_05_kawin">Kawin</label>
                           </div>
                           <div class="form-check-inline">
-                            <input type="radio" class="form-check-input" name="t_05" value="t_05">
-                            <label>Tidak Kawin</label>
+                            <input type="radio" class="form-check-input" name="t_05" id="v_05_tidak" value="1">
+                            <label for="v_05_tidak">Tidak Kawin</label>
                           </div>
                           <div class="form-check-inline">
-                            <input type="radio" class="form-check-input" name="t_05" value="t_05">
-                            <label>Duda</label>
+                            <input type="radio" class="form-check-input" name="t_05" id="v_05_duda" value="2">
+                            <label for="v_05_duda">Duda</label>
                           </div>
                           <div class="form-check-inline">
-                            <input type="radio" class="form-check-input" name="t_05" value="t_05">
-                            <label>Janda</label>
+                            <input type="radio" class="form-check-input" name="t_05" id="v_05_janda" value="3">
+                            <label for="v_05_janda">Janda</label>
                           </div>
                         </div>
             </td>
@@ -267,36 +251,36 @@
                                    <div class="col-4">
                                     <div class="col-md-7">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Belum/Tidak tamat SD</label>
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_belum" value="option1">
+                                        <label class="form-check-label" for="t_06_belum">Belum/Tidak tamat SD</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">SD</label>
-                                    </div>
-                                  </div>
-                                  </div>
-                                  <div class="col-4">
-                                    <div class="col-md-4">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">SMP</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">SMA</label>
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_sd" value="option2">
+                                        <label class="form-check-label" for="t_06_sd">SD</label>
                                     </div>
                                   </div>
                                   </div>
                                   <div class="col-4">
                                     <div class="col-md-4">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Akademi</label>
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_smp" value="option2">
+                                        <label class="form-check-label" for="t_06_smp">SMP</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Universitas</label>
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_sma" value="option1">
+                                        <label class="form-check-label" for="t_06_sma">SMA</label>
+                                    </div>
+                                  </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="col-md-4">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_akademi" value="option2">
+                                        <label class="form-check-label" for="t_06_akademi">Akademi</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_06" id="t_06_uni" value="option2">
+                                        <label class="form-check-label" for="t_06_uni">Universitas</label>
                                     </div>
                                   </div>
                                   </div>
@@ -312,36 +296,36 @@
                                    <div class="col-4">
                                     <div class="col-md-7">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">RS/RB</label>
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_rs" value="0">
+                                        <label class="form-check-label" for="t_07_rs">RS/RB</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Puskesmas</label>
-                                    </div>
-                                  </div>
-                                  </div>
-                                  <div class="col-4">
-                                    <div class="col-md-4">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Dokter</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Paramedis</label>
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_puskes" value="1">
+                                        <label class="form-check-label" for="t_07_puskes">Puskesmas</label>
                                     </div>
                                   </div>
                                   </div>
                                   <div class="col-4">
                                     <div class="col-md-4">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Sendiri</label>
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_dokter" value="2">
+                                        <label class="form-check-label" for="t_07_dokter">Dokter</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Polisi</label>
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_paramedis" value="3">
+                                        <label class="form-check-label" for="t_07_paramedis">Paramedis</label>
+                                    </div>
+                                  </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="col-md-4">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_sendiri" value="4">
+                                        <label class="form-check-label" for="t_07_sendiri">Sendiri</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_07" id="t_07_polisi" value="5">
+                                        <label class="form-check-label" for="t_07_polisi">Polisi</label>
                                     </div>
                                   </div>
                                   </div>
@@ -358,7 +342,7 @@
                       <label for="">Pekerjaan</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 250px">
+                      <input type="text" class="form-control" id="job_id" name="job_id" style="width: 250px">
                     </div>
                   </div>
                 </div>
@@ -369,76 +353,76 @@
                                    <div class="col-3">
                                     <div class="col-md-7">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Internis</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_inter" value="option1">
+                                        <label class="form-check-label" for="t_08_inter">Internis</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Bedah</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_bedah" value="option2">
+                                        <label class="form-check-label" for="t_08_bedah">Bedah</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Kes. Anak </label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_kesanak" value="option2">
+                                        <label class="form-check-label" for="t_08_kesanak">Kes. Anak </label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">ICU </label>
-                                    </div>
-                                  </div>
-                                  </div>
-                                  <div class="col-3">
-                                    <div class="col-md-4">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Kebidanan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Kandungan</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Bedah</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Bayi</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_icu" value="option2">
+                                        <label class="form-check-label" for="t_08_icu">ICU </label>
                                     </div>
                                   </div>
                                   </div>
                                   <div class="col-3">
                                     <div class="col-md-4">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Saraf</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_bidan" value="option2">
+                                        <label class="form-check-label" for="t_08_bidan">Kebidanan</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">THT</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_kandungan" value="option1">
+                                        <label class="form-check-label" for="t_08_kandungan">Kandungan</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Paru</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_bedah" value="option1">
+                                        <label class="form-check-label" for="t_08_bedah">Bedah</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <input type="text" class="form-control" id="" name="" style="width: 150px">
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_bayi" value="option2">
+                                        <label class="form-check-label" for="t_08_bayi">Bayi</label>
                                     </div>
                                   </div>
                                   </div>
                                   <div class="col-3">
                                     <div class="col-md-4">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Kulit</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_saraf" value="option2">
+                                        <label class="form-check-label" for="t_08_saraf">Saraf</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Stroke</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_tht" value="option2">
+                                        <label class="form-check-label" for="t_08_tht">THT</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">IMC</label>
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_paru" value="option2">
+                                        <label class="form-check-label" for="t_08_paru">Paru</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08" value="option2">
+                                        <input type="text" class="form-control" id="v_03" name="v_03" style="width: 150px">
+                                    </div>
+                                  </div>
+                                  </div>
+                                  <div class="col-3">
+                                    <div class="col-md-4">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_kulit" value="option2">
+                                        <label class="form-check-label" for="t_08_kulit">Kulit</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_stroke" value="option2">
+                                        <label class="form-check-label" for="t_08_stroke">Stroke</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="t_08" id="t_08_imc" value="option2">
+                                        <label class="form-check-label" for="t_08_imc">IMC</label>
                                     </div>
                                   </div>
                                   </div>
@@ -456,7 +440,7 @@
                       <label for="">Nama Orangtua / Keluarga Terdekat</label>
                     </div>
                     <div class="col-md-4">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 180px">
+                      <input type="text" class="form-control" id="alloanamnesis_contact" name="alloanamnesis_contact" style="width: 180px">
                     </div>
                   </div>
                 </div>
@@ -466,7 +450,7 @@
                       <label for="">Pekerjaan</label>
                     </div>
                     <div class="col-md-4">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 180px">
+                      <input type="text" class="form-control" id="job_id" name="job_id" style="width: 180px">
                     </div>
                   </div>
                 </div>
@@ -481,13 +465,13 @@
                       <label for="">Nama pengirim pasien</label>
                     </div>
                     <div class="col-md-4">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 200px">
+                      <input type="text" class="form-control" id="v_04" name="v_04" style="width: 200px">
                     </div>
                     <div class="col-md-6">
                       <label for="">No. Telp</label>
                     </div>
                     <div class="col-md-4">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 200px">
+                      <input type="text" class="form-control" id="v_05" name="v_05" style="width: 200px">
                     </div>
             </td>
             <td colspan="3">Tanggal Masuk</td>
@@ -498,26 +482,26 @@
 
           <tr>
             <td>
-              <input type="" name="" style="width: 50px">
+              <input type="examination_date" name="examination_date" style="width: 50px">
             </td>
             <td>
-              <input type="" name="" style="width: 50px">
+              <input type="examination_date" name="examination_date" style="width: 50px">
             </td>
             <td>
-              <input type="" name="" style="width: 50px">
+              <input type="examination_date" name="examination_date" style="width: 50px">
             </td>
             <td>
-              <input type="" name="" style="width: 50px">
+              <input type="examination_date" name="examination_date" style="width: 50px">
             </td>
             <td>
-              <input type="" name="" style="width: 50px">
+              <input type="examination_date" name="examination_date" style="width: 50px">
             </td>
             <td>
-              <input type="" name="" style="width: 50px">
+              <input type="examination_date" name="examination_date" style="width: 50px">
             </td>
             <td colspan="3" rowspan="2">
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="4" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="v_06" name="v_06" rows="4" cols="8" autocomplete="off"></textarea>
                 </div>
             </td>
           </tr>
@@ -531,7 +515,7 @@
                       <label for="">Jam</label>
                     </div>
                     <div class="col-md-4">
-                      <input type="time" class="form-control" id="" name="" style="width: 100px">
+                      <input type="time" class="form-control" id="v_07" name="v_07" style="width: 100px">
                     </div>
                   </div>
                 </div>
@@ -543,7 +527,7 @@
                       <label for="">Jam</label>
                     </div>
                     <div class="col-md-4">
-                      <input type="time" class="form-control" id="" name="" style="width: 100px">
+                      <input type="time" class="form-control" id="v_08" name="v_08" style="width: 100px">
                     </div>
                   </div>
                 </div>
@@ -558,7 +542,7 @@
             <td>
               <label>Diagnosis Sementara</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="4" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="diagnosa_history" name="diagnosa_history" rows="4" cols="8" autocomplete="off"></textarea>
                 </div>
             </td>
             <td colspan="6">
@@ -572,7 +556,7 @@
                       <label for="">Nama</label>
                     </div>
                     <div class="col-md-4">
-                      <input type="text" class="form-control" id="" name="" style="width: 250px">
+                      <input type="text" class="form-control" id="v_09" name="v_09" style="width: 250px">
                     </div>
                   </div>
                 </div>
@@ -581,17 +565,17 @@
                                <label >Asuransi</label>
                                 <div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Ya</label>
+                                        <input class="form-check-input" type="radio" name="v_09" id="t_09_ya" value="option1">
+                                        <label class="form-check-label" for="t_09_ya">Ya</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Tidak</label>
+                                        <input class="form-check-input" type="radio" name="v_09" id="t_09_tidak" value="option2">
+                                        <label class="form-check-label" for="t_09_tidak">Tidak</label>
                                     </div>
                                 </div>
                                 <br><label>Nama Asuransi</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" id="" name="" style="width: 250px">
+                                    <input type="text" class="form-control" id="v_10" name="v_10" style="width: 250px">
                                   </div>
 
             </td>
@@ -603,14 +587,14 @@
             <td colspan="7">
               <label>Diagnosis Utama :</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="2" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="v_11" name="v_11" rows="2" cols="8" autocomplete="off"></textarea>
                 </div>
               <label>(diagnosis harus ditulis dengan huruf cetak dan tidak boleh disingkat)</label>
             </td>
             <td colspan="3">
               <label>Kode ICD</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" id="" name="" style="width: 250px">
+                                    <input type="text" class="form-control" id="v_12" name="v_12" style="width: 250px">
                                   </div>
             </td>
           </tr>
@@ -620,13 +604,13 @@
             <td colspan="7">
               <label>Diagnose Sekunder :</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="2" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="v_13" name="v_13" rows="2" cols="8" autocomplete="off"></textarea>
                 </div>
             </td>
             <td colspan="3">
               <label>Kode ICD</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" id="" name="" style="width: 250px">
+                                    <input type="text" class="form-control" id="v_14" name="v_14" style="width: 250px">
                                   </div>
             </td>
           </tr>
@@ -637,13 +621,13 @@
             <td colspan="7">
               <label>Komplikasi :</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="2" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="v_15" name="v_15" rows="2" cols="8" autocomplete="off"></textarea>
                 </div>
             </td>
             <td colspan="3">
               <label>Kode ICD</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" id="" name="" style="width: 250px">
+                                    <input type="text" class="form-control" id="v_16" name="v_16" style="width: 250px">
                                   </div>
             </td>
           </tr>
@@ -654,13 +638,13 @@
             <td colspan="7">
               <label>Penyebab luar cidera & keracunan :</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="2" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="v_16" name="v_16" rows="2" cols="8" autocomplete="off"></textarea>
                 </div>
             </td>
             <td colspan="3">
               <label>Kode ICD</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" id="" name="" style="width: 250px">
+                                    <input type="text" class="form-control" id="v_17" name="v_17" style="width: 250px">
                                   </div>
             </td>
           </tr>
@@ -671,13 +655,13 @@
             <td colspan="7">
               <label>Operasi / tindakan :</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="2" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="v_18" name="v_18" rows="2" cols="8" autocomplete="off"></textarea>
                 </div>
             </td>
             <td colspan="3">
               <label>Kode ICD</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" id="" name="" style="width: 250px">
+                                    <input type="text" class="form-control" id="v_19" name="v_19" style="width: 250px">
                                   </div>
             </td>
           </tr>
@@ -688,7 +672,7 @@
             <td colspan="7">
               <label>Catatan :</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="v_12" name="v_12" rows="4" cols="8" autocomplete="off"></textarea>
+                <textarea class="form-control" id="v_20" name="v_20" rows="4" cols="8" autocomplete="off"></textarea>
                 </div>
             </td>
             <td colspan="3"></td>
@@ -701,24 +685,24 @@
               <div>
                                    <label class="col-2" for="">Keadaan Luar :</label>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Sembuh</label>
+                                        <input class="form-check-input" type="radio" name="t_010" id="t_010_sembuh" value="option1">
+                                        <label class="form-check-label" for="t_010_sembuh">Sembuh</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Perbaikan</label>
+                                        <input class="form-check-input" type="radio" name="t_010" id="t_010_perbaikan" value="option2">
+                                        <label class="form-check-label" for="t_010_perbaikan">Perbaikan</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Belum Sembuh</label>
+                                        <input class="form-check-input" type="radio" name="t_010" id="t_010_belum" value="option2">
+                                        <label class="form-check-label" for="t_010_belum">Belum Sembuh</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Meninggal < 48 jam</label>
+                                        <input class="form-check-input" type="radio" name="t_010" id="t_010_meninggal" value="option2">
+                                        <label class="form-check-label" for="t_010_meninggal">Meninggal < 48 jam</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Meninggal > 48 jam</label>
+                                        <input class="form-check-input" type="radio" name="t_010" id="t_010_dead" value="option2">
+                                        <label class="form-check-label" for="t_010_dead">Meninggal > 48 jam</label>
                                     </div>
                                 </div>
             </td>
@@ -731,20 +715,20 @@
               <div>
                                    <label class="col-2" for="">Izin Keluar :</label>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Atas Persetujuan</label>
+                                        <input class="form-check-input" type="radio" name="t_011" id="t_011_atas" value="option1">
+                                        <label class="form-check-label" for="t_011_atas">Atas Persetujuan</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Dirujuk</label>
+                                        <input class="form-check-input" type="radio" name="t_011" id="t_011_rujuk" value="option2">
+                                        <label class="form-check-label" for="t_011_rujuk">Dirujuk</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Pulang paksa</label>
+                                        <input class="form-check-input" type="radio" name="t_011" id="t_011_pulang" value="option2">
+                                        <label class="form-check-label" for="t_011_pulang">Pulang paksa</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Melarikan diri</label>
+                                        <input class="form-check-input" type="radio" name="t_011" id="t_011_lari" value="option2">
+                                        <label class="form-check-label" for="t_011_lari">Melarikan diri</label>
                                     </div>
                                 </div>
             </td>
@@ -760,7 +744,7 @@
                       <label for="">Infeksi Nosokomial :</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="" name="" style="width: 300px">
+                      <input type="text" class="form-control" id="v_21" name="v_21" style="width: 300px">
                     </div>
                   </div>
                 </div>
@@ -772,7 +756,7 @@
                       <label for="">Penyebab Infeksi Nosokomial :</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="" name="" style="width: 300px">
+                      <input type="text" class="form-control" id="v_22" name="v_22" style="width: 300px">
                     </div>
                   </div>
                 </div>
@@ -786,32 +770,32 @@
               <div>
                                    <label class="col-2" for="">Sejarah Imunisasi :</label>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">BCG</label>
+                                        <input class="form-check-input" type="radio" name="t_012" id="t_012_bcg" value="option1">
+                                        <label class="form-check-label" for="t_012_bcg">BCG</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">D.P.T</label>
+                                        <input class="form-check-input" type="radio" name="t_012" id="t_012_dpt" value="option2">
+                                        <label class="form-check-label" for="t_012_dpt">D.P.T</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Poliomielitis</label>
+                                        <input class="form-check-input" type="radio" name="t_012" id="t_012_polio" value="option2">
+                                        <label class="form-check-label" for="t_012_polio">Poliomielitis</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Tetanus formal toxoid</label>
+                                        <input class="form-check-input" type="radio" name="t_012" id="t_012_tetanus" value="option2">
+                                        <label class="form-check-label" for="t_012_tetanus">Tetanus formal toxoid</label>
                                     </div>                                  
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">D.T</label>
+                                        <input class="form-check-input" type="radio" name="t_012" id="t_012_dt" value="option2">
+                                        <label class="form-check-label" for="t_012_dt">D.T</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Campak</label>
+                                        <input class="form-check-input" type="radio" name="t_012" id="t_012_campak" value="option2">
+                                        <label class="form-check-label" for="t_012_campak">Campak</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Hepatitis B</label>
+                                        <input class="form-check-input" type="radio" name="t_012" id="t_012_hepa" value="option2">
+                                        <label class="form-check-label" for="t_012_hepa">Hepatitis B</label>
                                     </div>
                                 </div>
             </td>
@@ -836,7 +820,7 @@
                       <label for="">Nama Terang</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="" name="" style="width: 300px">
+                      <input type="text" class="form-control" id="v_23" name="v_23" style="width: 300px">
                     </div>
                   </div>
                 </div>
@@ -859,7 +843,7 @@
                       <label for="">Nama Terang</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="" name="" style="width: 300px">
+                      <input type="text" class="form-control" id="v_24" name="v_24" style="width: 300px">
                     </div>
                   </div>
                 </div>
@@ -892,7 +876,7 @@
                       <label for="">a.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 250px">
+                      <input type="text" class="form-control" id="v_25" name="v_25" style="width: 250px">
                     </div>
                     <label>Penyakit tersebut dalam ruang a disebabkan oleh (atau akibat dari):</label>
                   </div>
@@ -905,7 +889,7 @@
                       <label for="">b.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 250px">
+                      <input type="text" class="form-control" id="v_26" name="v_26" style="width: 250px">
                     </div>
                     <label>Penyakit tersebut dalam ruang b disebabkan oleh (atau akibat dari):</label>
                   </div>
@@ -918,7 +902,7 @@
                       <label for="">c.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 250px">
+                      <input type="text" class="form-control" id="v_27" name="v_27" style="width: 250px">
                     </div>
                   </div>
                 </div>
@@ -927,18 +911,18 @@
               </td>
             <td>
               <label>Kode ICD</label>
-              <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 100px">
+              <input type="text" class="form-control" id="v_28" name="v_28" style="width: 100px">
               <br><br><br>
-              <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 100px">
+              <input type="text" class="form-control" id="v_29" name="v_29" style="width: 100px">
               <br><br><br>
-              <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 100px">
+              <input type="text" class="form-control" id="v_30" name="v_30" style="width: 100px">
             </td>
             <td>
               <label>Lamanya ( kira-kira ) mulai sakit hingga meninggal dunia</label>
               <div class="col-md-9">
-                 <textarea class="form-control" id="v_12" name="v_12" rows="4" cols="9" autocomplete="off"></textarea>
+                 <textarea class="form-control" id="v_31" name="v_31" rows="4" cols="9" autocomplete="off"></textarea>
               </div>
-              <br><br><br><br><input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 250px">
+              <br><br><br><br><input type="text" class="form-control" id="v_32" name="v_32" style="width: 250px">
             </td>
           </tr>
 
@@ -949,11 +933,11 @@
             <td colspan="2">
               <label>Disamping penyakit-penyakit  tersebut diatas terdapat pula penyakit :</label>
               <div class="col-md-9">
-                 <textarea class="form-control" id="v_12" name="v_12" rows="4" cols="9" autocomplete="off"></textarea>
+                 <textarea class="form-control" id="v_33" name="v_33" rows="4" cols="9" autocomplete="off"></textarea>
               </div>
             </td>
             <td>
-              <textarea class="form-control" id="v_12" name="v_12" rows="4" cols="9" autocomplete="off"></textarea>
+              <textarea class="form-control" id="v_34" name="v_34" rows="4" cols="9" autocomplete="off"></textarea>
             </td>
           </tr>
 
@@ -966,7 +950,7 @@
                       <label for="">Keterangan Khusus untuk :</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 1000px">
+                      <input type="text" class="form-control" id="v_35" name="v_35" style="width: 1000px">
                     </div>
                   </div>
                 </div>
@@ -985,16 +969,16 @@
               <div>
                                    <label class="col-1" for="">a.</label>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_01" value="option1">
-                                        <label class="form-check-label" for="t_01">Bunuh Diri</label>
+                                        <input class="form-check-input" type="radio" name="t_013" id="t_013_bunuh" value="option1">
+                                        <label class="form-check-label" for="t_013_bunuh">Bunuh Diri</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Pembunuhan</label>
+                                        <input class="form-check-input" type="radio" name="t_013" id="t_013_bunuhan" value="option2">
+                                        <label class="form-check-label" for="t_013_bunuhan">Pembunuhan</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t_02" value="option2">
-                                        <label class="form-check-label" for="t_02">Kecelakaan</label>
+                                        <input class="form-check-input" type="radio" name="t_013" id="t_013_kecelakaan" value="option2">
+                                        <label class="form-check-label" for="t_013_kecelakaan">Kecelakaan</label>
                                     </div>
                                 </div>
               <div class="col-md-10">
@@ -1003,7 +987,7 @@
                       <label for="">b.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_36" name="v_36" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1013,7 +997,7 @@
                       <label for="">c.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_37" name="v_37" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1035,7 +1019,7 @@
                       <label for="">a.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_38" name="v_38" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1045,7 +1029,7 @@
                       <label for="">b.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_38" name="v_38" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1066,7 +1050,7 @@
                       <label for="">a.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_39" name="v_39" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1076,7 +1060,7 @@
                       <label for="">b.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_40" name="v_40" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1097,7 +1081,7 @@
                       <label for="">a.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_41" name="v_41" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1107,7 +1091,7 @@
                       <label for="">b.</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="text" class="form-control" id="no_Registration" name="no_Registration" style="width: 400px">
+                      <input type="text" class="form-control" id="v_42" name="v_42" style="width: 400px">
                     </div>
                   </div>
                 </div>
@@ -1120,7 +1104,7 @@
               <div style="text-align: right;">
                 <div class="mb-1">
                   <label for="diagnosa">Surakarta, </label>
-                  <input type="date">
+                  <input type="date" id="v_43" name="v_43">
                 </div>
                <div class="mb-3">
                   <label>Yang memberi keterangan sebab kematian</label>
@@ -1129,7 +1113,7 @@
                     <canvas id="canvas" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD" id="TTD">
                   <br><label>Nama Terang</label>
-                  <input type="text">
+                  <input type="text" id="v_44" name="v_44">
                 </div>
               </div>
             </td>

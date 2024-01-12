@@ -1110,8 +1110,8 @@
                   <label>Yang memberi keterangan sebab kematian</label>
                 </div>
                   <div class="mb-1" >
-                    <canvas id="canvas" width="150" height="90" style="border:1px solid #000;"></canvas>
-                    <input type="hidden" name="TTD" id="TTD">
+                    <canvas id="canvas3" width="200" height="150" style="border:1px solid #000;"></canvas>
+                    <input type="hidden" name="TTD_3" id="TTD_3">
                   <br><label>Nama Terang</label>
                   <input type="text" id="v_44" name="v_44">
                 </div>

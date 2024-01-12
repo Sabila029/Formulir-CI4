@@ -1826,14 +1826,14 @@
       <br><br><div style="text-align: right;">
                <div class="mb-3">
                   <label for="alasan" type="text">Surakarta , </label>
-                  <input type="date" name="">
+                  <input type="date" name="v_60" id="v_60">
                 </div>
                 <div>Perawat yang mengkaji,</div>
 
                   <div class="mb-1" >
                     <canvas id="canvas" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD" id="TTD">
-                    <br><input type="text" name="">
+                    <br><input type="text" name="v_61" id="v_61">
                       <br><label for="">Ttd & Nama Terang</label>
                 </div>
               </div>

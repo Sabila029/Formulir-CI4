@@ -27,21 +27,7 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
 
 
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -152,14 +138,57 @@
                 </div>
             </div>
 
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">ASSESMEN MEDIS PENYAKIT PARU</h5>
+                        <br>
+                        <a href="PKU/form9" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RMJ ASESMEN MEDIS PASIEN UMUM</h5>
+                        <br>
+                        <a href="PKU/form10" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RMJ ASSESMEN MEDIS PASIEN RAWAT JALAN ANAK</h5>
+                        <br>
+                        <a href="PKU/form11" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RMJ ASSESMEN MEDIS PASIEN RAWAT JALAN KANDUNGAN</h5>
+                        <br>
+                        <a href="PKU/form12" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
             
+
+
+
 
         </div>
     </div>
 
 
     <br><br><nav class="navbar navbar-light bg-primary" style="text-align: center;">
-  <div style="text-align: center;">Copyright © RSUD M. Yunus Bengkulu - Prov Bengkulu</div>
+  <div style="text-align: center;">Copyright © RS PKU MUHAMMADIYAH SAMPANGAN</div>
 </nav>
 
 

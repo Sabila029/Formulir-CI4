@@ -41,6 +41,22 @@ class PKU extends BaseController
     {
         return view('Form-PKU/2-2');
     }
+    public function form9()
+    {
+        return view('Form-PKU/2-1-24');
+    }
+    public function form10()
+    {
+        return view('Form-PKU/RMJ-2');
+    }
+    public function form11()
+    {
+        return view('Form-PKU/RMJ-2-1');
+    }
+    public function form12()
+    {
+        return view('Form-PKU/RMJ-2-2');
+    }
 
 
 }

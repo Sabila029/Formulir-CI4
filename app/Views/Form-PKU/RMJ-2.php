@@ -456,41 +456,89 @@
               </div>
               </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         
       </div>
     </form>
+    <script>
+    var canvas = document.getElementById('canvas');
+    const canvasDataInput = document.getElementById('TTD');
+    var context = canvas.getContext('2d');
+    var drawing = false;
+
+    canvas.addEventListener('mousedown', startDrawing);
+    canvas.addEventListener('mousemove', draw);
+    canvas.addEventListener('mouseup', stopDrawing);
+    canvas.addEventListener('mouseout', stopDrawing);
+
+    function startDrawing(e) {
+        drawing = true;
+        draw(e);
+    }
+
+    function draw(e) {
+        if (!drawing) return;
+
+        context.lineWidth = 2;
+        context.lineCap = 'round';
+        context.strokeStyle = '#000';
+
+        context.lineTo(e.clientX - canvas.getBoundingClientRect().left, e.clientY - canvas.getBoundingClientRect().top);
+        context.stroke();
+        context.beginPath();
+        context.moveTo(e.clientX - canvas.getBoundingClientRect().left, e.clientY - canvas.getBoundingClientRect().top);
+    }
+
+    function stopDrawing() {
+        drawing = false;
+        context.beginPath();
+    }
+
+    function saveSignatureData() {
+        const canvasData = canvas.toDataURL('image/png');
+
+        canvasDataInput.value = canvasData;
+    }
+</script>
+<script>
+    var canvas1 = document.getElementById('canvas1');
+    const canvasDataInput1 = document.getElementById('TTD_1');
+    var context1 = canvas1.getContext('2d');
+    var drawing = false;
+
+    canvas1.addEventListener('mousedown', startDrawing);
+    canvas1.addEventListener('mousemove', draw);
+    canvas1.addEventListener('mouseup', stopDrawing);
+    canvas1.addEventListener('mouseout', stopDrawing);
+
+    function startDrawing(e) {
+        drawing = true;
+        draw(e);
+    }
+
+    function draw(e) {
+        if (!drawing) return;
+
+        context1.lineWidth = 2;
+        context1.lineCap = 'round';
+        context1.strokeStyle = '#000';
+
+        context1.lineTo(e.clientX - canvas1.getBoundingClientRect().left, e.clientY - canvas1.getBoundingClientRect().top);
+        context1.stroke();
+        context1.beginPath();
+        context1.moveTo(e.clientX - canvas1.getBoundingClientRect().left, e.clientY - canvas1.getBoundingClientRect().top);
+    }
+
+    function stopDrawing() {
+        drawing = false;
+        context1.beginPath();
+    }
+
+    function saveSignatureData1() {
+        const canvasData1 = canvas1.toDataURL('image/png');
+
+        canvasDataInput1.value = canvasData1;
+    }
+</script>
 
   </body>
 </html>

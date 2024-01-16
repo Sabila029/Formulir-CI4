@@ -178,7 +178,140 @@
                 </div>
             </div>
 
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RMJ ASSESMEN MEDIS PASIEN SARAF</h5>
+                        <br>
+                        <a href="PKU/form13" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.1 - diagnosa kelebihan volume cairan</h5>
+                        <br>
+                        <a href="PKU/form14" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.2 - diagnosa ketidakefektifan perfusi jaringan</h5>
+                        <br>
+                        <a href="PKU/form15" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.3 - diagnosa gangguan mobilitas fisik</h5>
+                        <br>
+                        <a href="PKU/form16" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.4 - diagnosa gangguan pertukaran gas</h5>
+                        <br>
+                        <a href="PKU/form17" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.5 - diagnosa intoleransi aktifitas</h5>
+                        <br>
+                        <a href="PKU/form18" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.6 - diagnosa resiko infeksi</h5>
+                        <br>
+                        <a href="PKU/form19" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.7 - diagnosa gangguan nyeri</h5>
+                        <br>
+                        <a href="PKU/form20" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 3.2.8 - diagnosa gangguan kerusakan integritas kulit</h5>
+                        <br>
+                        <a href="PKU/form21" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 4.4 DAFTAR EVALUASI PENILAIAN ULANG MATERI EDUKASI REV</h5>
+                        <br>
+                        <a href="PKU/form22" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 4.10 KRITERIA PASIEN MASUK DAN KELUAR ICU</h5>
+                        <br>
+                        <a href="PKU/form23" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

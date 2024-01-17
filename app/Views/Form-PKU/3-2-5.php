@@ -48,7 +48,7 @@
             <label>DPJP</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_01" id="v_01" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -59,7 +59,7 @@
             <label>PPJP</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_02" id="v_02" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -70,7 +70,7 @@
             <label>RUANG</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_03" id="v_03" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -81,7 +81,7 @@
             <label>KELAS</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_04" id="v_04" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -99,172 +99,172 @@
           </tr>
 
           <tr>
-            <td>1. <input type="date" id="" name="" style="width: 110px"></td>
+            <td>1. <input type="date" id="v_05" name="v_05" style="width: 110px"></td>
             <td>
               <div class="mb-1"><b>Intoleransi Aktifitas </b><br>berhubungan dengan :</div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault"> Tirah baring / Immobilisasi</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_01">
+                <label class="form-check-label" for="t_01"> Tirah baring / Immobilisasi</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">  Nyeri Kronis</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_02">
+                <label class="form-check-label" for="t_02">  Nyeri Kronis</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Kelemahan umum</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_03">
+                <label class="form-check-label" for="t_03"> Kelemahan umum</label>
               </div>
               <div class="mb-2">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Ketidakseimbangan suplai dan kebutuhan oksigen</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_04">
+                <label class="form-check-label" for="t_04"> Ketidakseimbangan suplai dan kebutuhan oksigen</label>
               </div>
               </div>
             </td>
             <td>
-              <div class="mb-1">Kebutuhan aktifitas teratasi setelah dilakukan<br>tindakan perawatan dalam waktu <input type="text" id="" name="" style="width: 50px"> 24 jam.<br> Dengan kriteria hasil :</div>              
+              <div class="mb-1">Kebutuhan aktifitas teratasi setelah dilakukan<br>tindakan perawatan dalam waktu <input type="text" id="v_06" name="v_06" style="width: 50px"> 24 jam.<br> Dengan kriteria hasil :</div>              
               <div class="mb-1"><b>Kondisi</b></div>
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">KU baik</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_05">
+                <label class="form-check-label" for="t_05">KU baik</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">  Aktifitas terpenuhi</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_06">
+                <label class="form-check-label" for="t_06">  Aktifitas terpenuhi</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Istirahat terpenuhi</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_07">
+                <label class="form-check-label" for="t_07"> Istirahat terpenuhi</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">   Peningkatan kekuatan otot</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_08">
+                <label class="form-check-label" for="t_08">   Peningkatan kekuatan otot</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">  Hemobglobin</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_09">
+                <label class="form-check-label" for="t_09">  Hemobglobin</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Gula darah</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_010">
+                <label class="form-check-label" for="t_010">Gula darah</label>
               </div>
               <div class="mb-3">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Hematocrit</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_011">
+                <label class="form-check-label" for="t_011">Hematocrit</label>
               </div>
               </div>
 
               <div class="mb-1"><b>Konservasi </b></div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">  Monitor nutrisi</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_012">
+                <label class="form-check-label" for="t_012">  Monitor nutrisi</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Monitoring aktivitas dan istirahat</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_013">
+                <label class="form-check-label" for="t_013">Monitoring aktivitas dan istirahat</label>
               </div>
               <div class="mb-3">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">  Pembatasan energy k/p</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_014">
+                <label class="form-check-label" for="t_014">  Pembatasan energy k/p</label>
               </div>
               </div>
 
               <div class="mb-1"><b>Toleransi terhadap aktivitas </b></div>
               <div class="mb-3">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Obsevasi aktivitas pasien</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_015">
+                <label class="form-check-label" for="t_015">Obsevasi aktivitas pasien</label>
               </div>
               </div>
 
               <div class="mb-1"><b>Perawatan diri </b></div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Makan</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_016">
+                <label class="form-check-label" for="t_016">Makan</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Berpakaian</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_017">
+                <label class="form-check-label" for="t_017">Berpakaian</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Toileting</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_018">
+                <label class="form-check-label" for="t_018"> Toileting</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Mandi</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_019">
+                <label class="form-check-label" for="t_019">Mandi</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Hygiene</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_020">
+                <label class="form-check-label" for="t_020"> Hygiene</label>
               </div>
               <div class="mb-3">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Ambulansi</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_021">
+                <label class="form-check-label" for="t_021"> Ambulansi</label>
               </div>
               </div>
             </td>
             <td>
                <div class="mb-1"><b>Therapi Aktifitas</b></div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Bantu pasien mengidentifikasi aktivitas yang mampu dilakukan</label>
+                    <input class="form-check-input" type="checkbox" name="t_022" id="t_022_efektif">
+                    <label class="form-check-label" for="t_022_efektif">Bantu pasien mengidentifikasi aktivitas yang mampu dilakukan</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Bantu mendapatkan alat bantu aktivitas seperti : kursi roda, kruk.</label>
+                    <input class="form-check-input" type="checkbox" name="t_023" id="t_023_efektif">
+                    <label class="form-check-label" for="t_023_efektif">Bantu mendapatkan alat bantu aktivitas seperti : kursi roda, kruk.</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Identifikasi aktivitas yang disukai pasien</label>
+                    <input class="form-check-input" type="checkbox" name="t_024" id="t_024_tidak">
+                    <label class="form-check-label" for="t_024_tidak">Identifikasi aktivitas yang disukai pasien</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Tentukan jadwal latihan</label>
+                    <input class="form-check-input" type="checkbox" name="t_025" id="t_025_tidak">
+                    <label class="form-check-label" for="t_025_tidak">Tentukan jadwal latihan</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Bantu pasien / keluarga mengidentifikasi kekurangan dalam aktivitas</label>
+                    <input class="form-check-input" type="checkbox" name="t_026" id="t_026_tidak">
+                    <label class="form-check-label" for="t_026_tidak">Bantu pasien / keluarga mengidentifikasi kekurangan dalam aktivitas</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Beri penguatan yang positif. Monitor respon fisik, emosi, social dan spiritual</label>
+                    <input class="form-check-input" type="checkbox" name="t_027" id="t_027_tidak">
+                    <label class="form-check-label" for="t_027_tidak">Beri penguatan yang positif. Monitor respon fisik, emosi, social dan spiritual</label>
                   </div>
                   <div class="mb-3">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_syok" >
-                    <label class="form-check-label" for="t_042_syok">Kolaborasi dengan fisioterapi dalam mengembangkan dan melaksanakan program latihan.</label>
+                    <input class="form-check-input" type="checkbox" name="t_028" id="t_028_syok" >
+                    <label class="form-check-label" for="t_028_syok">Kolaborasi dengan fisioterapi dalam mengembangkan dan melaksanakan program latihan.</label>
                   </div>
                 </div>
 
                 <div class="mb-1"><b>Manajemen Energi</b></div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Obeservasi adanya pembatasan klien dalam aktivitas kaji factor kelelahan.</label>
+                    <input class="form-check-input" type="checkbox" name="t_029" id="t_029_efektif">
+                    <label class="form-check-label" for="t_029_efektif">Obeservasi adanya pembatasan klien dalam aktivitas kaji factor kelelahan.</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Monitor nutrisi dan sumber energy tenaga yang adekuat.</label>
+                    <input class="form-check-input" type="checkbox" name="t_029" id="t_029_efektif">
+                    <label class="form-check-label" for="t_029_efektif">Monitor nutrisi dan sumber energy tenaga yang adekuat.</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Monitor adanya kelelahan fisik dan emosi secara berlebihan.</label>
+                    <input class="form-check-input" type="checkbox" name="t_030" id="t_030_tidak">
+                    <label class="form-check-label" for="t_030_tidak">Monitor adanya kelelahan fisik dan emosi secara berlebihan.</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Therapy music : tentukan jenis music yang disukai pasien.</label>
+                    <input class="form-check-input" type="checkbox" name="t_031" id="t_031_tidak">
+                    <label class="form-check-label" for="t_031_tidak">Therapy music : tentukan jenis music yang disukai pasien.</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Therapy bermain : mensetting batasan terhadap sesi permainan terapetik.</label>
+                    <input class="form-check-input" type="checkbox" name="t_032" id="t_032_tidak">
+                    <label class="form-check-label" for="t_032_tidak">Therapy bermain : mensetting batasan terhadap sesi permainan terapetik.</label>
                   </div>
                   <div class="mb-3">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_syok" >
-                    <label class="form-check-label" for="t_042_syok">Pendidikan : menentukan aktifitas sesuai kondisi pasien.</label>
+                    <input class="form-check-input" type="checkbox" name="t_033" id="t_033_syok" >
+                    <label class="form-check-label" for="t_033_syok">Pendidikan : menentukan aktifitas sesuai kondisi pasien.</label>
                   </div>
                 </div>
             </td>
@@ -272,7 +272,7 @@
               <div class="mb-1" style="text-align: center;">
                     <canvas id="canvas" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD" id="TTD">
-                    <br><input type="text" name="v_68" id="v_68" style="width: 130px" placeholder="Nama">
+                    <br><input type="text" name="v_07" id="v_07" style="width: 130px" placeholder="Nama">
                 </div>
             </td>
           </tr>

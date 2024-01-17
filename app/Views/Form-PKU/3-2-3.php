@@ -48,7 +48,7 @@
             <label>DPJP</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_01" id="v_01" style="width: 350px">
+            <input class="form-control" type="text" name="v_01" id="v_01" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -59,7 +59,7 @@
             <label>PPJP</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_02" id="v_02" style="width: 350px">
+            <input class="form-control" type="text" name="v_02" id="v_02" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -70,7 +70,7 @@
             <label>RUANG</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_03" id="v_03" style="width: 350px">
+            <input class="form-control" type="text" name="v_03" id="v_03" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -81,7 +81,7 @@
             <label>KELAS</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_04" id="v_04" style="width: 350px">
+            <input class="form-control" type="text" name="v_04" id="v_04" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>

@@ -50,14 +50,14 @@
             <td>1. Diagnosa</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_01" id="t_01_sudah">
+                <label class="form-check-label" for="t_01_sudah">Sudah Mengerti</label>
               </div>
             </td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_01" id="t_01_belum">
+                <label class="form-check-label" for="t_01_belum">Belum Mengerti</label>
               </div>
             </td>
           </tr>
@@ -66,13 +66,13 @@
             <td>2.  Gejala dan tanda</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_02" id="t_02">
+                <label class="form-check-label" for="t_02">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_02" id="t_02_belum">
+                <label class="form-check-label" for="t_02_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -80,13 +80,13 @@
             <td>3.  Tolak ukur pengobatan</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_03" id="t_03_sudah">
+                <label class="form-check-label" for="t_03_sudah">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_03" id="t_03_belum">
+                <label class="form-check-label" for="t_03_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -94,13 +94,13 @@
             <td>4. Medikasi</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_04" id="t_04_sudah">
+                <label class="form-check-label" for="t_04_sudah">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_04" id="t_04_belum">
+                <label class="form-check-label" for="t_04_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -108,13 +108,13 @@
             <td>5. Diet</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_05" id="t_05_sudah">
+                <label class="form-check-label" for="t_05_sudah">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_05" id="t_05_belum">
+                <label class="form-check-label" for="t_05_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -122,13 +122,13 @@
             <td>6. Pengobatan di Rumah</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_06" id="t_06_sudah">
+                <label class="form-check-label" for="t_06_sudah">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_06" id="t_06_belum">
+                <label class="form-check-label" for="t_06_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -136,13 +136,13 @@
             <td>7. Jadwal Kontrol</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_07" id="t_07_sudah">
+                <label class="form-check-label" for="t_07_sudah">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_07" id="t_07_belum">
+                <label class="form-check-label" for="t_07_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -150,13 +150,13 @@
             <td>8. Hal-hal yang harus diperhatika</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_08" id="t_08_sudah">
+                <label class="form-check-label" for="t_08_sudah">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_08" id="t_08_belum">
+                <label class="form-check-label" for="t_08_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -164,13 +164,13 @@
             <td>9. Lain-lain</td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Sudah Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_09" id="t_09_sudah">
+                <label class="form-check-label" for="t_09_sudah">Sudah Mengerti</label>
               </div></td>
             <td style="text-align: center;">
               <div class="form-check">
-                <input class="form-check-input" type="radio" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Belum Mengerti</label>
+                <input class="form-check-input" type="radio" name="t_09" id="t_010_belum">
+                <label class="form-check-label" for="t_010_belum">Belum Mengerti</label>
               </div></td>
           </tr>
 
@@ -181,7 +181,7 @@
       <br><div style="text-align: right;">
                 <div class="mb-1">
                   <label for="diagnosa">Surakarta, </label>
-                  <input type="date" id="v_43" name="v_43">
+                  <input type="date" id="v_01" name="v_01">
                 </div>
                <div class="mb-3">
                   <label>Pasien / Keluarga</label>
@@ -190,7 +190,7 @@
                     <canvas id="canvas" width="200" height="150" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD" id="TTD">
                   <br><label>Nama Terang</label>
-                  <input type="text" id="v_44" name="v_44">
+                  <input type="text" id="v_02" name="v_02">
                 </div>
               </div>
         

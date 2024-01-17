@@ -48,7 +48,7 @@
             <label>DPJP</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_01" id="v_01" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -59,7 +59,7 @@
             <label>PPJP</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_02" id="v_02" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -70,7 +70,7 @@
             <label>RUANG</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_03" id="v_03" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -81,7 +81,7 @@
             <label>KELAS</label>
           </div>
           <div class="col-md-9">
-            <input class="form-control" type="text" name="v_05" id="v_05" style="width: 350px">
+            <input class="form-control" type="text" name="v_04" id="v_04" style="width: 350px" autocomplete="off">
           </div>
           </div>
       </div>
@@ -99,155 +99,155 @@
           </tr>
 
           <tr>
-            <td>1. <input type="date" id="" name="" style="width: 110px"></td>
+            <td>1. <input type="date" id="v_05" name="v_05" style="width: 110px"></td>
             <td>
                <div class="mb-1"><b>Risiko Infeksi</b><br>berhubungan dengan :</div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">Penyakit kronis.  Pertahanan tubuh primer tidak adekuat.</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_01">
+                <label class="form-check-label" for="t_01">Penyakit kronis.  Pertahanan tubuh primer tidak adekuat.</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Tindakan invansif</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_02">
+                <label class="form-check-label" for="t_02">Tindakan invansif</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Proseur pembedahan.</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_03">
+                <label class="form-check-label" for="t_03">Proseur pembedahan.</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">Ketuban pecah dini</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_04">
+                <label class="form-check-label" for="t_04">Ketuban pecah dini</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Trauma jaringan</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_05">
+                <label class="form-check-label" for="t_05">Trauma jaringan</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Pertahanan tubuh sekunder</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_06">
+                <label class="form-check-label" for="t_06">Pertahanan tubuh sekunder</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault"> Penuran hemoglobin</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_07">
+                <label class="form-check-label" for="t_07"> Penuran hemoglobin</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Penyakit immunosupresi</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_08">
+                <label class="form-check-label" for="t_08">Penyakit immunosupresi</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Vaksinasi tidak adekat</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_09">
+                <label class="form-check-label" for="t_09">Vaksinasi tidak adekat</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">Wabah</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_010">
+                <label class="form-check-label" for="t_010">Wabah</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Prosedur invasive</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_011">
+                <label class="form-check-label" for="t_011"> Prosedur invasive</label>
               </div>
               <div class="mb-2">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Ketidakadekuatan sistem kekebalan tubuh</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_012">
+                <label class="form-check-label" for="t_012">Ketidakadekuatan sistem kekebalan tubuh</label>
               </div>
               </div>
             </td>
             <td>
-              <div class="mb-1">Kulit utuh / tidak ada kerusakan setelah dilakukan<br>tindakan keperawatan selama <input type="text" id="" name="" style="width: 50px"> 24 jam.</div>
+              <div class="mb-1">Kulit utuh / tidak ada kerusakan setelah dilakukan<br>tindakan keperawatan selama <input type="text" id="v_06" name="v_06" style="width: 50px"> 24 jam.</div>
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Tidak ada luka</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_013">
+                <label class="form-check-label" for="t_013">Tidak ada luka</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Perfusi jaringan baik</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_014">
+                <label class="form-check-label" for="t_014">Perfusi jaringan baik</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Kulit lembab</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_015">
+                <label class="form-check-label" for="t_015">Kulit lembab</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Kulit teraba hangat</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_016">
+                <label class="form-check-label" for="t_016">Kulit teraba hangat</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Tidak ada warna merah pada kulit</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_017">
+                <label class="form-check-label" for="t_017"> Tidak ada warna merah pada kulit</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Integritas kulit yang baik bisa ipertahankan</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_018">
+                <label class="form-check-label" for="t_018">Integritas kulit yang baik bisa ipertahankan</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Tidak ada luka/lesi pada kulit</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_019">
+                <label class="form-check-label" for="t_019">Tidak ada luka/lesi pada kulit</label>
               </div>
               <div class="mb-3">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Perfusi jaringan baik</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_020">
+                <label class="form-check-label" for="t_020">Perfusi jaringan baik</label>
               </div>
               </div>
             </td>
             <td>
               <div class="mb-1"><b>Therapi Aktifitas</b></div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Bersihkan ruangan setelah dipakai pasien</label>
+                    <input class="form-check-input" type="checkbox" name="t_021" id="t_021_efektif">
+                    <label class="form-check-label" for="t_021_efektif">Bersihkan ruangan setelah dipakai pasien</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Kaji adanya tanda – randa infeksi</label>
+                    <input class="form-check-input" type="checkbox" name="t_022" id="t_022_efektif">
+                    <label class="form-check-label" for="t_022_efektif">Kaji adanya tanda – randa infeksi</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Pertahankan teknik isolasi</label>
+                    <input class="form-check-input" type="checkbox" name="t_023" id="t_023_tidak">
+                    <label class="form-check-label" for="t_023_tidak">Pertahankan teknik isolasi</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Batasi pengunjung bila perlu</label>
+                    <input class="form-check-input" type="checkbox" name="t_024" id="t_024_tidak">
+                    <label class="form-check-label" for="t_024_tidak">Batasi pengunjung bila perlu</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Intruksikan pada pengunjung untuk menuci tangan saat berkunjung dan selah meninggalkan pasien</label>
+                    <input class="form-check-input" type="checkbox" name="t_025" id="t_025_efektif">
+                    <label class="form-check-label" for="t_025_efektif">Intruksikan pada pengunjung untuk menuci tangan saat berkunjung dan selah meninggalkan pasien</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Gunakan sabun antimikroba untuk cuci tangan</label>
+                    <input class="form-check-input" type="checkbox" name="t_026" id="t_026_efektif">
+                    <label class="form-check-label" for="t_026_efektif">Gunakan sabun antimikroba untuk cuci tangan</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Cuci tangan setiap sebelum dan sesudah tindakan keperawatan</label>
+                    <input class="form-check-input" type="checkbox" name="t_027" id="t_027_tidak">
+                    <label class="form-check-label" for="t_027_tidak">Cuci tangan setiap sebelum dan sesudah tindakan keperawatan</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Gunakan baju, sarung tangan sebagai alat pelindung sesuai kebutuhan</label>
+                    <input class="form-check-input" type="checkbox" name="t_028" id="t_028_tidak">
+                    <label class="form-check-label" for="t_028_tidak">Gunakan baju, sarung tangan sebagai alat pelindung sesuai kebutuhan</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Pertahankan lingkungan aseptic selama pemasangan alat.</label>
+                    <input class="form-check-input" type="checkbox" name="t_029" id="t_029_efektif">
+                    <label class="form-check-label" for="t_029_efektif">Pertahankan lingkungan aseptic selama pemasangan alat.</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_efektif">
-                    <label class="form-check-label" for="t_042_efektif">Ganti letak IV perifer dan line central sesuai petunjuk umum</label>
+                    <input class="form-check-input" type="checkbox" name="t_030" id="t_030_efektif">
+                    <label class="form-check-label" for="t_030_efektif">Ganti letak IV perifer dan line central sesuai petunjuk umum</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Lakukan teknik aseptic saat melakukan tindakan invasif.</label>
+                    <input class="form-check-input" type="checkbox" name="t_031" id="t_031_tidak">
+                    <label class="form-check-label" for="t_031_tidak">Lakukan teknik aseptic saat melakukan tindakan invasif.</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Tingkatkan intake nutrisi</label>
+                    <input class="form-check-input" type="checkbox" name="t_032" id="t_032_tidak">
+                    <label class="form-check-label" for="t_032_tidak">Tingkatkan intake nutrisi</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_tidak">
-                    <label class="form-check-label" for="t_042_tidak">Kolaborasi bila perlu</label>
+                    <input class="form-check-input" type="checkbox" name="t_033" id="t_033_tidak">
+                    <label class="form-check-label" for="t_033_tidak">Kolaborasi bila perlu</label>
                   </div>
                   <div class="mb-3">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="t_042" id="t_042_syok" >
-                    <label class="form-check-label" for="t_042_syok">Laporkan hasil kultur</label>
+                    <input class="form-check-input" type="checkbox" name="t_034" id="t_034_syok" >
+                    <label class="form-check-label" for="t_034_syok">Laporkan hasil kultur</label>
                   </div>
                 </div>
             </td>
@@ -255,7 +255,7 @@
               <div class="mb-1" style="text-align: center;">
                     <canvas id="canvas" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD" id="TTD">
-                    <br><input type="text" name="v_68" id="v_68" style="width: 130px" placeholder="Nama">
+                    <br><input type="text" name="v_07" id="v_07" style="width: 130px" placeholder="Nama">
                 </div>
             </td>
           </tr>

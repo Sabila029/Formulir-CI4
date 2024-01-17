@@ -60,42 +60,42 @@
             <td><b>I (PERTAMA)</b></td>
             <td colspan="2">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Pasien gagal nafas berat : status   asmaticus</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_01">
+                <label class="form-check-label" for="t_01">Pasien gagal nafas berat : status   asmaticus</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Shock dengan berbagai penyebab</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_02">
+                <label class="form-check-label" for="t_02">Shock dengan berbagai penyebab</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Trauma kapitis berat dengan peningkatan TIK</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_03">
+                <label class="form-check-label" for="t_03"> Trauma kapitis berat dengan peningkatan TIK</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">  Gangguan asam basa dan elektrolit</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_04">
+                <label class="form-check-label" for="t_04">  Gangguan asam basa dan elektrolit</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked"> Hipotensi/hipoksemia</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_05">
+                <label class="form-check-label" for="t_05"> Hipotensi/hipoksemia</label>
               </div>
             </td>
             <td colspan="2" rowspan="3">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">1. Kondisi membaik dan cukup stabil</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_06">
+                <label class="form-check-label" for="t_06">1. Kondisi membaik dan cukup stabil</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">2. Pasien tidak memerlukan alat bantu mekanis khusus</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_07">
+                <label class="form-check-label" for="t_07">2. Pasien tidak memerlukan alat bantu mekanis khusus</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">3. Pasien / keluargan menolak di rawat lebih lanjut di ruang intensive</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_08">
+                <label class="form-check-label" for="t_08">3. Pasien / keluargan menolak di rawat lebih lanjut di ruang intensive</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">4. Pasien hanya memerlukan observasi intensive saja dan ada pasien lain yang lebih gawat yang memerlukan perawatan intensive</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_09">
+                <label class="form-check-label" for="t_09">4. Pasien hanya memerlukan observasi intensive saja dan ada pasien lain yang lebih gawat yang memerlukan perawatan intensive</label>
               </div>
             </td>
           </tr>
@@ -106,41 +106,41 @@
             <td colspan="2">
             <div class="mb-1"><b> Paska bedah mayor dan luas</b></div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Bedah digestifus</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_010">
+                <label class="form-check-label" for="t_010">Bedah digestifus</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Bedah tumor</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_011">
+                <label class="form-check-label" for="t_011">Bedah tumor</label>
               </div>
               <div class="mb-3">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Bedah syaraf</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_012">
+                <label class="form-check-label" for="t_012">Bedah syaraf</label>
               </div>
               </div>
 
               <div class="mb-1"><b> Pasien dengan penyakit primer</b></div>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Jantung</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_013">
+                <label class="form-check-label" for="t_013">Jantung</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Paru</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_014">
+                <label class="form-check-label" for="t_014">Paru</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Ginjal</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_015">
+                <label class="form-check-label" for="t_015">Ginjal</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Syaraf</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_016">
+                <label class="form-check-label" for="t_016">Syaraf</label>
               </div>
               <div class="mb-3">
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Gangguan metabolisme</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_017">
+                <label class="form-check-label" for="t_017">Gangguan metabolisme</label>
               </div>
               </div>
 
@@ -153,12 +153,12 @@
             <td rowspan="2"><b>III (Tiga)</b></td>
             <td colspan="2">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Pasien dengan metastase tumor ganas</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_018">
+                <label class="form-check-label" for="t_018">Pasien dengan metastase tumor ganas</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">Komplikasi gagal pernafasan dengan prognosa buruk untuk sembuh</label>
+                <input class="form-check-input" type="checkbox" value="" id="t_019">
+                <label class="form-check-label" for="t_019">Komplikasi gagal pernafasan dengan prognosa buruk untuk sembuh</label>
               </div>
             </td>
           </tr>
@@ -172,7 +172,7 @@
                       <label for="">Tanggal</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="date" class="form-control" id="v_05" name="v_05" style="width: 150px">
+                      <input type="date" class="form-control" id="v_01" name="v_01" style="width: 150px">
                     </div>
                   </div>
                 </div> <br>
@@ -182,7 +182,7 @@
                       <label for="">Jam</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="time" class="form-control" id="v_05" name="v_05" style="width: 150px">
+                      <input type="time" class="form-control" id="v_02" name="v_02" style="width: 150px">
                     </div>
                   </div>
                 </div>
@@ -194,7 +194,7 @@
                       <label for="">Tanggal</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="date" class="form-control" id="v_05" name="v_05" style="width: 150px">
+                      <input type="date" class="form-control" id="v_03" name="v_03" style="width: 150px">
                     </div>
                   </div>
                 </div> <br>
@@ -204,7 +204,7 @@
                       <label for="">Jam</label>
                     </div>
                     <div class="col-md-6">
-                      <input type="time" class="form-control" id="v_05" name="v_05" style="width: 150px">
+                      <input type="time" class="form-control" id="v_04" name="v_04" style="width: 150px">
                     </div>
                   </div>
                 </div>
@@ -219,7 +219,7 @@
                   <div class="mb-1" >
                     <canvas id="canvas" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD" id="TTD">
-                    <br><input type="text" name="v_31" id="v_31">
+                    <br><input type="text" name="v_05" id="v_05">
                       <br><label for="">Ttd & Nama Terang</label>
                 </div></td>
             <td style="text-align: center;"><div>Dokter Anastesi</div>
@@ -227,7 +227,7 @@
                   <div class="mb-1" >
                     <canvas id="canvas1" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD_1" id="TTD_1">
-                    <br><input type="text" name="v_31" id="v_31">
+                    <br><input type="text" name="v_06" id="v_06">
                       <br><label for="">Ttd & Nama Terang</label>
                 </div></td>
             <td style="text-align: center;"><div>Dokter Anastesi</div>
@@ -235,7 +235,7 @@
                   <div class="mb-1" >
                     <canvas id="canvas2" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD_2" id="TTD_3">
-                    <br><input type="text" name="v_31" id="v_31">
+                    <br><input type="text" name="v_07" id="v_07">
                       <br><label for="">Ttd & Nama Terang</label>
                 </div></td>
             <td style="text-align: center;"><div>DPJP</div>
@@ -243,7 +243,7 @@
                   <div class="mb-1" >
                     <canvas id="canvas3" width="150" height="90" style="border:1px solid #000;"></canvas>
                     <input type="hidden" name="TTD_3" id="TTD_3">
-                    <br><input type="text" name="v_31" id="v_31">
+                    <br><input type="text" name="v_08" id="v_08">
                       <br><label for="">Ttd & Nama Terang</label>
                 </div></td>
           </tr>

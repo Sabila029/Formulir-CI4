@@ -289,6 +289,16 @@
                 </div>
             </div>
 
+            <div class="col-md-4">
+                <div class="card mt-5" style="width: 18rem;" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 5CP4 ASUHAN KEPERAWATA MENYUSUI TIDAK EFEKTIF</h5>
+                        <br>
+                        <a href="PKU/form24" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
 
 
 

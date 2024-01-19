@@ -55,8 +55,8 @@
 
     <div class="container" style="margin: 0 auto;">
         <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RINGKASAN MASUK DAN KELUAR</h5>
                         <br>
@@ -66,8 +66,8 @@
             </div>
 
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN AWAL KEPERAWATAN PASIEN KRITIS</h5>
                         <br>
@@ -77,8 +77,8 @@
             </div>
 
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN KEBUTUHAN EDUKASI</h5>
                         <br>
@@ -88,8 +88,8 @@
             </div>
 
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN ULANG NYERI</h5>
                         <br>
@@ -98,8 +98,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN AWAL MEDIS PASIEN BEDAH ORTHOPEDI RAWAT INAP</h5>
                         <br>
@@ -108,8 +108,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN AWAL KEPERAWATAN PASIEN NEONATUS RAWAT INAP</h5>
                         <br>
@@ -118,8 +118,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">ASESMEN KHUSUS PENYAKIT MENULAR _ IMMUNOSUPRESED</h5>
                         <br>
@@ -128,8 +128,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">LAPORAN PERSALINAN</h5>
                         <br>
@@ -138,8 +138,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">ASSESMEN MEDIS PENYAKIT PARU</h5>
                         <br>
@@ -148,8 +148,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RMJ ASESMEN MEDIS PASIEN UMUM</h5>
                         <br>
@@ -158,8 +158,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RMJ ASSESMEN MEDIS PASIEN RAWAT JALAN ANAK</h5>
                         <br>
@@ -168,8 +168,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RMJ ASSESMEN MEDIS PASIEN RAWAT JALAN KANDUNGAN</h5>
                         <br>
@@ -178,8 +178,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RMJ ASSESMEN MEDIS PASIEN SARAF</h5>
                         <br>
@@ -189,8 +189,8 @@
             </div>
 
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.1 - diagnosa kelebihan volume cairan</h5>
                         <br>
@@ -199,8 +199,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.2 - diagnosa ketidakefektifan perfusi jaringan</h5>
                         <br>
@@ -209,8 +209,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.3 - diagnosa gangguan mobilitas fisik</h5>
                         <br>
@@ -219,8 +219,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.4 - diagnosa gangguan pertukaran gas</h5>
                         <br>
@@ -229,8 +229,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.5 - diagnosa intoleransi aktifitas</h5>
                         <br>
@@ -239,8 +239,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.6 - diagnosa resiko infeksi</h5>
                         <br>
@@ -249,8 +249,8 @@
                 </div>
             </div>
 
-             <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+             <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.7 - diagnosa gangguan nyeri</h5>
                         <br>
@@ -259,8 +259,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 3.2.8 - diagnosa gangguan kerusakan integritas kulit</h5>
                         <br>
@@ -269,8 +269,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 4.4 DAFTAR EVALUASI PENILAIAN ULANG MATERI EDUKASI REV</h5>
                         <br>
@@ -279,8 +279,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 4.10 KRITERIA PASIEN MASUK DAN KELUAR ICU</h5>
                         <br>
@@ -289,8 +289,8 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 5CP4 ASUHAN KEPERAWATA MENYUSUI TIDAK EFEKTIF</h5>
                         <br>
@@ -299,12 +299,42 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card mt-5" style="width: 18rem;" align="center">
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
                     <div class="card-body">
                         <h5 class="card-title">RM 5CP2a ORIENTASI PELAYANAN FASILITAS PELAYANAN RANAP</h5>
                         <br>
                         <a href="PKU/form25" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM7.7 SURAT SERAH TERIMA BAYI PULANG</h5>
+                        <br>
+                        <a href="PKU/form26" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 8.c FAKTOR RESIKO INFEKSI SELAMA DIRAWAT 27092019</h5>
+                        <br>
+                        <a href="PKU/form27" class="btn btn-outline-dark">Isi Formulir</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card mt-5" align="center">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 8.1.6 B DOKUMENTASI PEMBERIAN INFORMASI</h5>
+                        <br>
+                        <a href="PKU/form28" class="btn btn-outline-dark">Isi Formulir</a>
                     </div>
                 </div>
             </div>
